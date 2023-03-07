@@ -1,4 +1,4 @@
-import './ActionRow.css';
+// import './ActionRow.css';
 
 export default function ActionRow(props) {
   const id = props.id;
