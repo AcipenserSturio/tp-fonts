@@ -14,20 +14,17 @@ export default function App() {
   console.log("fonts:")
   console.log(Object.keys(fonts).length)
 
-  let all_fonts = all_valid_fonts(fonts);
-  console.log("valid fonts:")
-  console.log(Object.keys(all_fonts).length);
-/*
   useEffect(() => {
-    all_valid_fonts(fonts).then(result => {
-      setFontfaces(result);
+    all_valid_fonts(fonts).then(valid_fonts => {
+      console.log(valid_fonts);
+      setFontfaces(valid_fonts);
     })
-  }, []);*/
+  }, []);
 
   return (
     <>
       Hello World
-      <ListBox dictionary={dictionary} />
+      <ListBox dictionary={fontfaces} />
     </>
   );
 }

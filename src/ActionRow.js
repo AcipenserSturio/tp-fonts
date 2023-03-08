@@ -3,16 +3,16 @@
 export default function ActionRow(props) {
   const id = props.id;
   const content = props.content;
-  // console.log(id, content);
+  console.log(id, content);
 
   return (
     <>
       <div style={{padding: '3px'}}>
         <span>{id}</span>
         <span> </span>
-        <span>{content['usage_category']}</span>
+        <span>{content['name_short']}</span>
         <span> </span>
-        <span>{content['def']['en']}</span>
+        <span>{content['creator']}</span>
       </div>
     </>
   );

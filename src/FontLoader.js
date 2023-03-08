@@ -3,21 +3,38 @@ import FontFaceObserver from 'fontfaceobserver';
 
 
 export default function all_valid_fonts(fonts) {
-  return Object.fromEntries(
-    Object.entries(fonts).filter(([key, value]) => is_font_loaded(value))
-  )
+  // return Object.fromEntries(
+  //   Object.entries(fonts).filter(([key, value]) => is_font_loaded(value))
+  // )
+  return are_fonts_loaded(fonts);
+}
+
+function are_fonts_loaded(fonts) {
+  return new Promise((resolve, reject) => {
+    let font_loaded_promises = [];
+    for (let font of Object.values(fonts)) {
+      font_loaded_promises.push(is_font_loaded(font));
+    }
+    Promise.all(font_loaded_promises).then((fonts) => {
+      fonts = fonts.filter(fonts => fonts);
+      resolve(fonts);
+    });
+  });
 }
 
 function is_font_loaded(font) {
-  let fontname = get_font_name(font);
-  let fontface = new FontFaceObserver(fontname);
+  return new Promise((resolve, reject) => {
 
-  fontface.load().then(() => {
-    console.log(fontname + ' is available');
-    return true;
-  }, function () {
-    console.log(fontname + ' is not available');
-    return false;
+    let fontname = get_font_name(font);
+    let fontface = new FontFaceObserver(fontname);
+
+    fontface.load().then(() => {
+      console.log(fontname + ' is available');
+      resolve(font);
+    }, () => {
+      console.log(fontname + ' is not available');
+      resolve(false);
+    });
   });
 }
 
