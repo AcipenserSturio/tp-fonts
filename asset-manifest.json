@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lipu-linku-sin/static/css/main.4d6c541d.css",
-    "main.js": "/lipu-linku-sin/static/js/main.b08921dd.js",
+    "main.css": "/lipu-linku-sin/static/css/main.ec5c4962.css",
+    "main.js": "/lipu-linku-sin/static/js/main.e5b9f063.js",
     "static/media/nishiki-teki-lili.ttf": "/lipu-linku-sin/static/media/nishiki-teki-lili.40275fd6708f408f2e1d.ttf",
     "static/media/fairfax-pona.ttf": "/lipu-linku-sin/static/media/fairfax-pona.cfbcb0320889518b8045.ttf",
     "static/media/fairfax.ttf": "/lipu-linku-sin/static/media/fairfax.1f64d0e88c029916f844.ttf",
@@ -56,11 +56,11 @@
     "static/media/kiku upi ala.ttf": "/lipu-linku-sin/static/media/kiku upi ala.3d052612c64e9b7fc854.ttf",
     "static/media/sitelen-uta.otf": "/lipu-linku-sin/static/media/sitelen-uta.2e9c03d4da789163538f.otf",
     "index.html": "/lipu-linku-sin/index.html",
-    "main.4d6c541d.css.map": "/lipu-linku-sin/static/css/main.4d6c541d.css.map",
-    "main.b08921dd.js.map": "/lipu-linku-sin/static/js/main.b08921dd.js.map"
+    "main.ec5c4962.css.map": "/lipu-linku-sin/static/css/main.ec5c4962.css.map",
+    "main.e5b9f063.js.map": "/lipu-linku-sin/static/js/main.e5b9f063.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d6c541d.css",
-    "static/js/main.b08921dd.js"
+    "static/css/main.ec5c4962.css",
+    "static/js/main.e5b9f063.js"
   ]
 }
