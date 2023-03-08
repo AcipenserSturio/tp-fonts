@@ -1,0 +1,266 @@
+
+@font-face {
+  font-family: '5x5-sitelen-pona';
+  src: local('5x5-sitelen-pona'), url(../fonts/5x5-sitelen-pona.otf);
+}
+
+@font-face {
+  font-family: 'craftype';
+  src: local('craftype'), url(../fonts/craftype.otf);
+}
+
+@font-face {
+  font-family: 'fairfax-hd';
+  src: local('fairfax-hd'), url(../fonts/fairfax-hd.ttf);
+}
+
+@font-face {
+  font-family: 'fairfax-pona-hd';
+  src: local('fairfax-pona-hd'), url(../fonts/fairfax-pona-hd.ttf);
+}
+
+@font-face {
+  font-family: 'fairfax-pona';
+  src: local('fairfax-pona'), url(../fonts/fairfax-pona.ttf);
+}
+
+@font-face {
+  font-family: 'fairfax';
+  src: local('fairfax'), url(../fonts/fairfax.ttf);
+}
+
+@font-face {
+  font-family: 'kiku upi ala';
+  src: local('kiku upi ala'), url(../fonts/kiku upi ala.ttf);
+}
+
+@font-face {
+  font-family: 'leko-lili-15x15';
+  src: local('leko-lili-15x15'), url(../fonts/leko-lili-15x15.ttf);
+}
+
+@font-face {
+  font-family: 'leko-majuna';
+  src: local('leko-majuna'), url(../fonts/leko-majuna.ttf);
+}
+
+@font-face {
+  font-family: 'linja-ante';
+  src: local('linja-ante'), url(../fonts/linja-ante.ttf);
+}
+
+@font-face {
+  font-family: 'linja-leko-pi-luka-tu';
+  src: local('linja-leko-pi-luka-tu'), url(../fonts/linja-leko-pi-luka-tu.otf);
+}
+
+@font-face {
+  font-family: 'linja-leko';
+  src: local('linja-leko'), url(../fonts/linja-leko.ttf);
+}
+
+@font-face {
+  font-family: 'linja-luka';
+  src: local('linja-luka'), url(../fonts/linja-luka.otf);
+}
+
+@font-face {
+  font-family: 'linja-pi-kama-wan';
+  src: local('linja-pi-kama-wan'), url(../fonts/linja-pi-kama-wan.ttf);
+}
+
+@font-face {
+  font-family: 'linja-pi-kute-mute-tu';
+  src: local('linja-pi-kute-mute-tu'), url(../fonts/linja-pi-kute-mute-tu.ttf);
+}
+
+@font-face {
+  font-family: 'linja-pi-kute-mute';
+  src: local('linja-pi-kute-mute'), url(../fonts/linja-pi-kute-mute.otf);
+}
+
+@font-face {
+  font-family: 'linja-pi-tomo-lipu';
+  src: local('linja-pi-tomo-lipu'), url(../fonts/linja-pi-tomo-lipu.ttf);
+}
+
+@font-face {
+  font-family: 'linja-pimeja-pona';
+  src: local('linja-pimeja-pona'), url(../fonts/linja-pimeja-pona.otf);
+}
+
+@font-face {
+  font-family: 'linja-pimeja';
+  src: local('linja-pimeja'), url(../fonts/linja-pimeja.ttf);
+}
+
+@font-face {
+  font-family: 'linja-pona';
+  src: local('linja-pona'), url(../fonts/linja-pona.otf);
+}
+
+@font-face {
+  font-family: 'linja-sike';
+  src: local('linja-sike'), url(../fonts/linja-sike.otf);
+}
+
+@font-face {
+  font-family: 'linja-suwi';
+  src: local('linja-suwi'), url(../fonts/linja-suwi.otf);
+}
+
+@font-face {
+  font-family: 'linja-waso-lili';
+  src: local('linja-waso-lili'), url(../fonts/linja-waso-lili.ttf);
+}
+
+@font-face {
+  font-family: 'linja-wawa';
+  src: local('linja-wawa'), url(../fonts/linja-wawa.ttf);
+}
+
+@font-face {
+  font-family: 'linjalipamanka-normal';
+  src: local('linjalipamanka-normal'), url(../fonts/linjalipamanka-normal.ttf);
+}
+
+@font-face {
+  font-family: 'nasin-leko-suwi-lasina';
+  src: local('nasin-leko-suwi-lasina'), url(../fonts/nasin-leko-suwi-lasina.ttf);
+}
+
+@font-face {
+  font-family: 'nasin-leko-suwi';
+  src: local('nasin-leko-suwi'), url(../fonts/nasin-leko-suwi.ttf);
+}
+
+@font-face {
+  font-family: 'nasin-nanpa';
+  src: local('nasin-nanpa'), url(../fonts/nasin-nanpa.otf);
+}
+
+@font-face {
+  font-family: 'nasin-sitelen-pu-mono';
+  src: local('nasin-sitelen-pu-mono'), url(../fonts/nasin-sitelen-pu-mono.otf);
+}
+
+@font-face {
+  font-family: 'nasinluka';
+  src: local('nasinluka'), url(../fonts/nasinluka.otf);
+}
+
+@font-face {
+  font-family: 'neoletters';
+  src: local('neoletters'), url(../fonts/neoletters.ttf);
+}
+
+@font-face {
+  font-family: 'nishiki-teki-lili';
+  src: local('nishiki-teki-lili'), url(../fonts/nishiki-teki-lili.ttf);
+}
+
+@font-face {
+  font-family: 'sike-en-linja';
+  src: local('sike-en-linja'), url(../fonts/sike-en-linja.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-kotopon';
+  src: local('sitelen-kotopon'), url(../fonts/sitelen-kotopon.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-latin';
+  src: local('sitelen-latin'), url(../fonts/sitelen-latin.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-leko-ko';
+  src: local('sitelen-leko-ko'), url(../fonts/sitelen-leko-ko.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-luka-tu-tu';
+  src: local('sitelen-luka-tu-tu'), url(../fonts/sitelen-luka-tu-tu.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-pi-jan-Soja';
+  src: local('sitelen-pi-jan-Soja'), url(../fonts/sitelen-pi-jan-Soja.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-pi-linja-ko';
+  src: local('sitelen-pi-linja-ko'), url(../fonts/sitelen-pi-linja-ko.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-pona-7x7';
+  src: local('sitelen-pona-7x7'), url(../fonts/sitelen-pona-7x7.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-pona-kiwen-2';
+  src: local('sitelen-pona-kiwen-2'), url(../fonts/sitelen-pona-kiwen-2.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-pona-kiwen';
+  src: local('sitelen-pona-kiwen'), url(../fonts/sitelen-pona-kiwen.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-pona-pona';
+  src: local('sitelen-pona-pona'), url(../fonts/sitelen-pona-pona.otf);
+}
+
+@font-face {
+  font-family: 'sitelen-suwi-ko';
+  src: local('sitelen-suwi-ko'), url(../fonts/sitelen-suwi-ko.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-telo-momo';
+  src: local('sitelen-telo-momo'), url(../fonts/sitelen-telo-momo.ttf);
+}
+
+@font-face {
+  font-family: 'sitelen-uta';
+  src: local('sitelen-uta'), url(../fonts/sitelen-uta.otf);
+}
+
+@font-face {
+  font-family: 'sitelennasinluka';
+  src: local('sitelennasinluka'), url(../fonts/sitelennasinluka.otf);
+}
+
+@font-face {
+  font-family: 'sitelenselikiwenasuki';
+  src: local('sitelenselikiwenasuki'), url(../fonts/sitelenselikiwenasuki.ttf);
+}
+
+@font-face {
+  font-family: 'sitelenselikiwenjuniko';
+  src: local('sitelenselikiwenjuniko'), url(../fonts/sitelenselikiwenjuniko.ttf);
+}
+
+@font-face {
+  font-family: 'supa-lape';
+  src: local('supa-lape'), url(../fonts/supa-lape.otf);
+}
+
+@font-face {
+  font-family: 'tama-ka-tumu';
+  src: local('tama-ka-tumu'), url(../fonts/tama-ka-tumu.ttf);
+}
+
+@font-face {
+  font-family: 'toki-pona-updated';
+  src: local('toki-pona-updated'), url(../fonts/toki-pona-updated.ttf);
+}
+
+@font-face {
+  font-family: 'unifont-csur';
+  src: local('unifont-csur'), url(../fonts/unifont-csur.otf);
+}
+

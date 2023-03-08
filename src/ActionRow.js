@@ -3,7 +3,7 @@
 export default function ActionRow(props) {
   const id = props.id;
   const content = props.content;
-  console.log(id, content);
+  // console.log(id, content);
 
   return (
     <>
