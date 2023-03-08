@@ -7,7 +7,7 @@ export default function ActionRow(props) {
 
   return (
     <>
-      <div style={{padding: '3px'}}>
+      <div style={{padding: '3px', fontFamily: content['filename'].split('.')[0]}}>
         <span>{id}</span>
         <span> </span>
         <span>{content['name_short']}</span>
