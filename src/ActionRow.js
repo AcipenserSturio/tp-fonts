@@ -3,17 +3,19 @@
 export default function ActionRow(props) {
   const id = props.id;
   const content = props.content;
-  console.log(id, content);
+  const sampletext = props.sampletext;
+  const fontface = content['filename'].split('.')[0];
 
   return (
-    <>
-      <div style={{padding: '3px', fontFamily: content['filename'].split('.')[0]}}>
-        <span>{id}</span>
-        <span> </span>
-        <span>{content['name_short']}</span>
-        <span> </span>
-        <span>{content['creator']}</span>
-      </div>
-    </>
+    <div className="actionRow">
+      <span>{id}</span>
+      <span> </span>
+      <span>{content['name_short']}</span>
+      <br />
+      <span> by </span>
+      <span>{content['creator']}</span>
+      <br />
+      <span style={{fontFamily: fontface}}>{sampletext}</span>
+    </div>
   );
 }

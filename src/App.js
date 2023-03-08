@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react';
 export default function App() {
   const [bundle, setBundle] = useState(Bundle());
   const [fontfaces, setFontfaces] = useState([]);
+  const [sampletext, setSampletext] = useState("tomo tawa sewi mi li jo e kala linja mute mute");
   const dictionary = bundle['data']
   const fonts = bundle['fonts']
   console.log("fonts:")
@@ -23,8 +24,7 @@ export default function App() {
 
   return (
     <>
-      Hello World
-      <ListBox dictionary={fontfaces} />
+      <ListBox dictionary={fontfaces} sampletext={sampletext}/>
     </>
   );
 }
