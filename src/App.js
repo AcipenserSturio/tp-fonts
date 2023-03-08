@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import TextInput from './TextInput.js';
 import ListBox from './ListBox.js';
 import Bundle from './Bundle.js';
 import all_valid_fonts from './FontLoader.js';
@@ -24,6 +25,7 @@ export default function App() {
 
   return (
     <>
+      <TextInput sampletext={sampletext} onchange={(e) => setSampletext(e.target.value)}/>
       <ListBox dictionary={fontfaces} sampletext={sampletext}/>
     </>
   );

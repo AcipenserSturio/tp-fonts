@@ -25,3 +25,19 @@ code {
   padding: 10px;
   border-radius: 10px;
 }
+
+.textInput {
+  background-color: #444444;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-family: inherit;
+  color: #ffffff;
+  text-align: center;
+  border: 0px solid #000000;
+}
+
+.textInputWrapper {
+  max-width: 680px;
+  margin: 20px auto;
+}
